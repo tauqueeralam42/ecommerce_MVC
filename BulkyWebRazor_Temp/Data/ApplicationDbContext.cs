@@ -17,7 +17,7 @@ namespace BulkyWebRazor_Temp.Data
             modelBuilder.Entity<Category>().HasData(
                  new Category { Id = 1, Name = "Action", DisplayOrder = 2 },
                  new Category { Id = 2, Name = "Si-fi", DisplayOrder = 1 },
-                 new Category { Id = 3, Name = "Drama", DisplayOrder = 4 }
+                 new Category { Id = 3, Name = "Drama", DisplayOrder = 3 }
              );
         }
     }
